@@ -66,10 +66,11 @@ Después de la clase, el equipo debe:
 taller-01-bpmn/
 ├── README.md
 ├── clase/
-│   ├── guia_paso_a_paso_bpmn.md   # Notación, metodología de 5 pasos y ejemplo guiado
-│   ├── img/                       # Diagramas de apoyo de la guía
-│   ├── modelo.drawio              # Modelo BPMN del caso base (Clínica Salud Viva)
-│   └── notas.md                   # Ver plantillas/plantilla_notas.md
+│   ├── guia_paso_a_paso_bpmn.md          # Notación, metodología de 5 pasos y ejemplo guiado
+│   ├── img/                              # Diagramas de apoyo de la guía
+│   ├── ejemplo-agendamiento-citas.drawio # Ejemplo resuelto (Paso 5 de la guía) — no copiar, es referencia
+│   ├── modelo.drawio                     # Modelo BPMN del caso base (Clínica Salud Viva), a construir en clase
+│   └── notas.md                          # Ver plantillas/plantilla_notas.md
 ├── entrega/
 │   ├── modelo-final.drawio        # Modelo BPMN del proceso real del cliente
 │   ├── informe.md                 # Ver plantillas/plantilla_informe_taller.md
