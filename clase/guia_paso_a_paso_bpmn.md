@@ -83,4 +83,31 @@ Antes de subir `modelo.drawio` (Parte 1) o `modelo-final.drawio` (Parte 2), veri
 
 ---
 
+## 6. Vista ArchiMate equivalente
+
+El BPMN modela el **detalle** del proceso — carriles, gateways, flujos. La **capa de Negocio** de ArchiMate (ver la [Guía de Notación ArchiMate](https://github.com/CesarAVegaF312/AREM-ArchiMate/blob/main/guia_notacion_archimate.md)) lo resume en una sola caja: un **Business Process** que un **Business Actor** ejecuta y que **realiza** un objetivo de Motivación (Taller 0).
+
+```mermaid
+flowchart TD
+    subgraph motivacion["Motivación (Taller 0)"]
+        goal(["🎯 Garantizar atención eficiente y organizada"])
+    end
+    subgraph negocio["Negocio"]
+        paciente(["🧑 Paciente"])
+        proceso["Agendamiento de Citas Médicas"]
+    end
+
+    paciente -->|"participa en"| proceso
+    proceso -->|"realiza"| goal
+
+    classDef motivacion fill:#ccccff,color:#000,stroke:#6666cc;
+    classDef negocio fill:#ffff99,color:#000,stroke:#cccc00;
+    class goal motivacion
+    class paciente,proceso negocio
+```
+
+**No hay que elegir entre BPMN y ArchiMate**: el `Business Process` de ArchiMate es la caja resumen que conecta este taller con el resto de la arquitectura; el BPMN de `modelo.drawio` sigue siendo el lugar donde vive el detalle de carriles y decisiones.
+
+---
+
 _Esta guía hace parte del Taller 1 de Modelado de Procesos con BPMN — curso Arquitectura Empresarial, Universidad de La Sabana._
