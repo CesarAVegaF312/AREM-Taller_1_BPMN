@@ -28,7 +28,7 @@ Siga siempre este orden. No empiece dibujando flechas: empiece identificando qui
 
 Este es el mismo caso base descrito en el `README.md`. A continuación se construye el diagrama siguiendo, paso a paso, la metodología de la sección anterior. Úselo como referencia de método — no como plantilla para copiar, ya que en clase el docente puede ajustar el alcance del proceso.
 
-📎 El resultado final de este ejemplo está disponible como archivo editable en [`clase/ejemplo-agendamiento-citas.drawio`](ejemplo-agendamiento-citas.drawio) — ábralo en [draw.io](https://app.diagrams.net/) para ver el modelo completo con las dos lanes, el gateway y ambos eventos de fin.
+📎 El resultado final de este ejemplo está disponible como archivo editable en [`clase/ejemplo-agendamiento-citas.drawio`](ejemplo-agendamiento-citas.drawio) — ábralo en [draw.io](https://app.diagrams.net/) para ver el modelo completo con las dos lanes, el gateway y ambos eventos de fin. También puede explorar el mismo diagrama de forma interactiva y clickeable en [`clase/visualizacion-bpmn.html`](visualizacion-bpmn.html).
 
 ### Paso 1 — Identificar actores
 

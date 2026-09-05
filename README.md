@@ -10,6 +10,12 @@ Modelar un proceso de negocio real del cliente utilizando la notación BPMN, ide
 
 Antes de empezar a modelar, revise la [**Guía Paso a Paso: Cómo Modelar un Proceso en BPMN**](clase/guia_paso_a_paso_bpmn.md). Incluye la leyenda de notación, la metodología de 5 pasos que se usa en todo el taller, un ejemplo completo construido paso a paso sobre el propio caso de la Clínica Salud Viva, y una comparación de errores comunes vs. modelo corregido.
 
+### 🖼️ Versión visual: Modelado de Procesos
+
+[`clase/visualizacion-bpmn.html`](clase/visualizacion-bpmn.html) es una página interactiva autocontenida: un diagrama BPMN clickeable del proceso de Agendamiento de Citas Médicas (dos carriles, Paciente y Sistema de Citas) que muestra el tipo de elemento, el actor responsable y — para el gateway — la pregunta de decisión con sus dos ramas ("Sí"/"No"), además de la leyenda de notación, la metodología de 5 pasos y la tabla de errores comunes. GitHub no la renderiza interactiva desde la vista de archivo; para verla:
+- Descargue el archivo y ábralo con doble clic (funciona sin conexión, es HTML plano), o
+- Pegue esta URL en [htmlpreview.github.io](https://htmlpreview.github.io/): `https://raw.githubusercontent.com/CesarAVegaF312/AREM-Taller_1_BPMN/main/clase/visualizacion-bpmn.html`
+
 ## 🏥 Caso base de referencia: Clínica Salud Viva
 
 Durante este taller, todos los equipos trabajarán en clase con un caso base común antes de aplicarlo a su cliente real.
