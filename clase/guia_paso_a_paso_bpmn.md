@@ -1,4 +1,4 @@
-# 🧭 Guía Paso a Paso: Cómo Modelar un Proceso en BPMN
+# Guía Paso a Paso: Cómo Modelar un Proceso en BPMN
 
 Esta guía complementa el `README.md` del taller. Su objetivo es que, antes de modelar el proceso de **Agendamiento de Citas Médicas** en clase (Parte 1) o el proceso de su cliente real (Parte 2), el equipo tenga una referencia clara de la notación BPMN y de la metodología para construir el diagrama desde cero.
 
@@ -28,7 +28,7 @@ Siga siempre este orden. No empiece dibujando flechas: empiece identificando qui
 
 Este es el mismo caso base descrito en el `README.md`. A continuación se construye el diagrama siguiendo, paso a paso, la metodología de la sección anterior. Úselo como referencia de método — no como plantilla para copiar, ya que en clase el docente puede ajustar el alcance del proceso.
 
-📎 El resultado final de este ejemplo está disponible como archivo editable en [`clase/ejemplo-agendamiento-citas.drawio`](ejemplo-agendamiento-citas.drawio) — ábralo en [draw.io](https://app.diagrams.net/) para ver el modelo completo con las dos lanes, el gateway y ambos eventos de fin. También puede explorar el mismo diagrama de forma interactiva y clickeable en [`clase/visualizacion-bpmn.html`](visualizacion-bpmn.html).
+El resultado final de este ejemplo está disponible como archivo editable en [`clase/ejemplo-agendamiento-citas.drawio`](ejemplo-agendamiento-citas.drawio) — ábralo en [draw.io](https://app.diagrams.net/) para ver el modelo completo con las dos lanes, el gateway y ambos eventos de fin. También puede explorar el mismo diagrama de forma interactiva y clickeable en [`clase/visualizacion-bpmn.html`](visualizacion-bpmn.html).
 
 ### Paso 1 — Identificar actores
 
@@ -92,10 +92,10 @@ El BPMN modela el **detalle** del proceso — carriles, gateways, flujos. La **c
 ```mermaid
 flowchart TD
     subgraph motivacion["Motivación (Taller 0)"]
-        goal(["🎯 Garantizar atención eficiente y organizada"])
+        goal(["Garantizar atención eficiente y organizada"])
     end
     subgraph negocio["Negocio"]
-        paciente(["🧑 Paciente"])
+        paciente(["Paciente"])
         proceso["Agendamiento de Citas Médicas"]
     end
 
