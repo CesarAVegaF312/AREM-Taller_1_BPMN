@@ -1,26 +1,26 @@
-# 🛠️ Taller 1: Modelado de Proceso del Cliente con BPMN
+# Taller 1: Modelado de Proceso del Cliente con BPMN
 
-## 🎯 Objetivo
+## Objetivo
 
 Modelar un proceso de negocio real del cliente utilizando la notación BPMN, identificando eventos, actividades, decisiones, actores involucrados y puntos críticos del flujo.
 
 ---
 
-## 📘 Guía paso a paso
+## Guía paso a paso
 
 Antes de empezar a modelar, revise la [**Guía Paso a Paso: Cómo Modelar un Proceso en BPMN**](clase/guia_paso_a_paso_bpmn.md). Incluye la leyenda de notación, la metodología de 5 pasos que se usa en todo el taller, un ejemplo completo construido paso a paso sobre el propio caso de la Clínica Salud Viva, y una comparación de errores comunes vs. modelo corregido.
 
-### 🖼️ Versión visual: Modelado de Procesos
+### Versión visual: Modelado de Procesos
 
 [`clase/visualizacion-bpmn.html`](clase/visualizacion-bpmn.html) es una página interactiva autocontenida: un diagrama BPMN clickeable del proceso de Agendamiento de Citas Médicas (dos carriles, Paciente y Sistema de Citas) que muestra el tipo de elemento, el actor responsable y — para el gateway — la pregunta de decisión con sus dos ramas ("Sí"/"No"), además de la leyenda de notación, la metodología de 5 pasos y la tabla de errores comunes. GitHub no la renderiza interactiva desde la vista de archivo; para verla:
 - Descargue el archivo y ábralo con doble clic (funciona sin conexión, es HTML plano), o
 - Pegue esta URL en [htmlpreview.github.io](https://htmlpreview.github.io/): `https://raw.githubusercontent.com/CesarAVegaF312/AREM-Taller_1_BPMN/main/clase/visualizacion-bpmn.html`
 
-## 🏥 Caso base de referencia: Clínica Salud Viva
+## Caso base de referencia: Clínica Salud Viva
 
 Durante este taller, todos los equipos trabajarán en clase con un caso base común antes de aplicarlo a su cliente real.
 
-## 🧠 Contexto
+## Contexto
 
 La Clínica Salud Viva es una institución médica de tamaño medio ubicada en una ciudad capital. Atiende pacientes tanto de manera presencial como virtual, y cuenta con una plataforma digital donde los usuarios pueden agendar citas médicas, recibir notificaciones y consultar su historial de atención. El proceso de agendamiento implica la selección de especialidad, disponibilidad del médico y confirmación vía correo electrónico o mensaje de texto. Este proceso es fundamental para garantizar una atención eficiente y organizada, especialmente en épocas de alta demanda como campañas de vacunación o jornadas preventivas.
 
@@ -37,7 +37,7 @@ La Clínica Salud Viva es una institución médica de tamaño medio ubicada en u
 
 ---
 
-## 🧪 Parte 1: Trabajo en Clase
+## Parte 1: Trabajo en Clase
 
 Durante la clase se espera que el equipo:
 
@@ -54,7 +54,7 @@ Siga la metodología de 5 pasos de la [guía paso a paso](clase/guia_paso_a_paso
 
 ---
 
-## 🧠 Parte 2: Aplicación al Cliente Real
+## Parte 2: Aplicación al Cliente Real
 
 Después de la clase, el equipo debe:
 
@@ -66,7 +66,7 @@ Después de la clase, el equipo debe:
 
 ---
 
-## 📁 Estructura esperada del repositorio
+## Estructura esperada del repositorio
 
 ```
 taller-01-bpmn/
@@ -89,11 +89,11 @@ taller-01-bpmn/
 
 ---
 
-## ⚠️ Errores comunes
+## Errores comunes
 
 Antes de entregar, compare su modelo contra los errores más frecuentes (evento de fin faltante, gateways sin pregunta, actividades sin conectar, carriles ausentes) documentados en la [sección 4 de la guía paso a paso](clase/guia_paso_a_paso_bpmn.md#4-errores-comunes-a-evitar).
 
-## 📊 Rúbrica de Evaluación
+## Rúbrica de Evaluación
 
 | Criterio                            | Excelente (5)                                                       | Aceptable (3) / Insuficiente (1–2)                     |
 |-------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------|
@@ -104,6 +104,6 @@ Antes de entregar, compare su modelo contra los errores más frecuentes (evento 
 
 ---
 
-## ✅ Licencia
+## Licencia
 
 Este taller hace parte del curso de Arquitectura Empresarial - Universidad de La Sabana. Uso académico bajo licencia MIT.
