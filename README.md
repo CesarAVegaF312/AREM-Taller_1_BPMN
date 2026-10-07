@@ -10,6 +10,8 @@ Modelar un proceso de negocio real del cliente utilizando la notación BPMN, ide
 
 Antes de empezar a modelar, revise la [**Guía Paso a Paso: Cómo Modelar un Proceso en BPMN**](clase/guia_paso_a_paso_bpmn.md). Incluye la leyenda de notación, la metodología de 5 pasos que se usa en todo el taller, un ejemplo completo construido paso a paso sobre el propio caso de la Clínica Salud Viva, y una comparación de errores comunes vs. modelo corregido.
 
+La presentación de la clase está en [`2. PMN_Modelado_Procesos_v2.pptx`](2.%20PMN_Modelado_Procesos_v2.pptx) (versión para estudiantes, sin notas del orador).
+
 ### Versión visual: Modelado de Procesos
 
 [`clase/visualizacion-bpmn.html`](clase/visualizacion-bpmn.html) es una página interactiva autocontenida: un diagrama BPMN clickeable del proceso de Agendamiento de Citas Médicas (dos carriles, Paciente y Sistema de Citas) que muestra el tipo de elemento, el actor responsable y — para el gateway — la pregunta de decisión con sus dos ramas ("Sí"/"No"), además de la leyenda de notación, la metodología de 5 pasos y la tabla de errores comunes. GitHub no la renderiza interactiva desde la vista de archivo; para verla:
