@@ -14,9 +14,7 @@ La presentación de la clase está en [`2. PMN_Modelado_Procesos_v2.pptx`](2.%20
 
 ### Versión visual: Modelado de Procesos
 
-[`clase/visualizacion-bpmn.html`](clase/visualizacion-bpmn.html) es una página interactiva autocontenida: un diagrama BPMN clickeable del proceso de Agendamiento de Citas Médicas (dos carriles, Paciente y Sistema de Citas) que muestra el tipo de elemento, el actor responsable y — para el gateway — la pregunta de decisión con sus dos ramas ("Sí"/"No"), además de la leyenda de notación, la metodología de 5 pasos y la tabla de errores comunes. GitHub no la renderiza interactiva desde la vista de archivo; para verla:
-- Descargue el archivo y ábralo con doble clic (funciona sin conexión, es HTML plano), o
-- Pegue esta URL en [htmlpreview.github.io](https://htmlpreview.github.io/): `https://raw.githubusercontent.com/CesarAVegaF312/AREM-Taller_1_BPMN/main/clase/visualizacion-bpmn.html`
+[`clase/visualizacion-bpmn.html`](clase/visualizacion-bpmn.html) es una página interactiva autocontenida: un diagrama BPMN clickeable del proceso de Agendamiento de Citas Médicas (dos carriles, Paciente y Sistema de Citas) que muestra el tipo de elemento, el actor responsable y — para el gateway — la pregunta de decisión con sus dos ramas ("Sí"/"No"), además de la leyenda de notación, la metodología de 5 pasos y la tabla de errores comunes. Ábrala directamente en el navegador: **[ver la página interactiva](https://cesaravegaf312.github.io/AREM-Taller_1_BPMN/clase/visualizacion-bpmn.html)**. También puede descargar el archivo y abrirlo con doble clic; funciona sin conexión.
 
 ## Caso base de referencia: Clínica Salud Viva
 
@@ -94,6 +92,12 @@ taller-01-bpmn/
 ## Errores comunes
 
 Antes de entregar, compare su modelo contra los errores más frecuentes (evento de fin faltante, gateways sin pregunta, actividades sin conectar, carriles ausentes) documentados en la [sección 4 de la guía paso a paso](clase/guia_paso_a_paso_bpmn.md#4-errores-comunes-a-evitar).
+
+## Entregables
+
+- Modelo BPMN del proceso real del cliente (`entrega/modelo-final.drawio`)
+- Informe técnico explicativo (`entrega/informe.md`)
+- Referencias técnicas e investigación complementaria (`entrega/referencias.md`)
 
 ## Rúbrica de Evaluación
 
