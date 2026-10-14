@@ -8,24 +8,24 @@ Modelar un proceso de negocio real del cliente utilizando la notación BPMN, ide
 
 ## Guía paso a paso
 
-Antes de empezar a modelar, revise la [**Guía Paso a Paso: Cómo Modelar un Proceso en BPMN**](clase/guia_paso_a_paso_bpmn.md). Incluye la leyenda de notación, la metodología de 5 pasos que se usa en todo el taller, un ejemplo completo construido paso a paso sobre el propio caso de la Clínica Salud Viva, y una comparación de errores comunes vs. modelo corregido.
+Antes de empezar a modelar, revise la [**Guía Paso a Paso: Cómo Modelar un Proceso en BPMN**](clase/guia_paso_a_paso_bpmn.md). Incluye la leyenda de notación, la metodología de 5 pasos que se usa en todo el taller, un ejemplo completo construido paso a paso sobre el propio caso de la Fundación Salud Viva, y una comparación de errores comunes vs. modelo corregido.
 
-La presentación de la clase está en [`2. PMN_Modelado_Procesos_v2.pptx`](2.%20PMN_Modelado_Procesos_v2.pptx) (versión para estudiantes, sin notas del orador).
+La presentación de la clase está en [`1. BPMN_Modelado_Procesos_v2.pptx`](1.%20BPMN_Modelado_Procesos_v2.pptx) (versión para estudiantes, sin notas del orador).
 
 ### Versión visual: Modelado de Procesos
 
 [`clase/visualizacion-bpmn.html`](clase/visualizacion-bpmn.html) es una página interactiva autocontenida: un diagrama BPMN clickeable del proceso de Agendamiento de Citas Médicas (dos carriles, Paciente y Sistema de Citas) que muestra el tipo de elemento, el actor responsable y — para el gateway — la pregunta de decisión con sus dos ramas ("Sí"/"No"), además de la leyenda de notación, la metodología de 5 pasos y la tabla de errores comunes. Ábrala directamente en el navegador: **[ver la página interactiva](https://cesaravegaf312.github.io/AREM-Taller_1_BPMN/clase/visualizacion-bpmn.html)**. También puede descargar el archivo y abrirlo con doble clic; funciona sin conexión.
 
-## Caso base de referencia: Clínica Salud Viva
+## Caso base de referencia: Fundación Salud Viva
 
 Durante este taller, todos los equipos trabajarán en clase con un caso base común antes de aplicarlo a su cliente real.
 
 ## Contexto
 
-La Clínica Salud Viva es una institución médica de tamaño medio ubicada en una ciudad capital. Atiende pacientes tanto de manera presencial como virtual, y cuenta con una plataforma digital donde los usuarios pueden agendar citas médicas, recibir notificaciones y consultar su historial de atención. El proceso de agendamiento implica la selección de especialidad, disponibilidad del médico y confirmación vía correo electrónico o mensaje de texto. Este proceso es fundamental para garantizar una atención eficiente y organizada, especialmente en épocas de alta demanda como campañas de vacunación o jornadas preventivas.
+La Fundación Salud Viva es una institución médica de tamaño medio ubicada en una ciudad capital. Atiende pacientes tanto de manera presencial como virtual, y cuenta con una plataforma digital donde los usuarios pueden agendar citas médicas, recibir notificaciones y consultar su historial de atención. El proceso de agendamiento implica la selección de especialidad, disponibilidad del médico y confirmación vía correo electrónico o mensaje de texto. Este proceso es fundamental para garantizar una atención eficiente y organizada, especialmente en épocas de alta demanda como campañas de vacunación o jornadas preventivas.
 
 **Descripción del caso:**
-- La Clínica Salud Viva es una clínica mediana que ofrece atención médica presencial y virtual.
+- La Fundación Salud Viva es una clínica mediana que ofrece atención médica presencial y virtual.
 - Cuenta con un sistema de gestión de citas en línea, un ERP administrativo y alianzas con aseguradoras de salud.
 
 **Proceso a modelar (en clase):**
@@ -41,7 +41,7 @@ La Clínica Salud Viva es una institución médica de tamaño medio ubicada en u
 
 Durante la clase se espera que el equipo:
 
-Siga la metodología de 5 pasos de la [guía paso a paso](clase/guia_paso_a_paso_bpmn.md) para modelar el proceso de agendamiento de citas de la Clínica Salud Viva:
+Siga la metodología de 5 pasos de la [guía paso a paso](clase/guia_paso_a_paso_bpmn.md) para modelar el proceso de agendamiento de citas de la Fundación Salud Viva:
 
 1. Identifique los actores del proceso (¿quién participa? ¿qué rol cumple cada uno?).
 2. Defina el evento de inicio y los posibles eventos de fin.
@@ -75,7 +75,7 @@ taller-01-bpmn/
 │   ├── guia_paso_a_paso_bpmn.md          # Notación, metodología de 5 pasos y ejemplo guiado
 │   ├── img/                              # Diagramas de apoyo de la guía
 │   ├── ejemplo-agendamiento-citas.drawio # Ejemplo resuelto (Paso 5 de la guía) — no copiar, es referencia
-│   ├── modelo.drawio                     # Modelo BPMN del caso base (Clínica Salud Viva), a construir en clase
+│   ├── modelo.drawio                     # Modelo BPMN del caso base (Fundación Salud Viva), a construir en clase
 │   └── notas.md                          # Ver plantillas/plantilla_notas.md
 ├── entrega/
 │   ├── modelo-final.drawio        # Modelo BPMN del proceso real del cliente
@@ -104,7 +104,7 @@ Antes de entregar, compare su modelo contra los errores más frecuentes (evento 
 | Criterio                            | Excelente (5)                                                       | Aceptable (3) / Insuficiente (1–2)                     |
 |-------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------|
 | Claridad del diagrama BPMN          | Modelo limpio, con símbolos correctos y buena secuencia lógica       | Desordenado, símbolos incorrectos o secuencia confusa  |
-| Representación del caso base        | Modelo representa adecuadamente el flujo propuesto (Clínica Salud Viva) | Modelo incompleto o incoherente con el caso de clase   |
+| Representación del caso base        | Modelo representa adecuadamente el flujo propuesto (Fundación Salud Viva) | Modelo incompleto o incoherente con el caso de clase   |
 | Aplicación al cliente real          | Se adapta adecuadamente el modelado al cliente con diferencias justificadas | No hay adaptación real o está desalineado              |
 | Investigación complementaria        | Buenas prácticas BPMN aplicadas y bien citadas                       | Poco análisis o investigación desconectada              |
 
