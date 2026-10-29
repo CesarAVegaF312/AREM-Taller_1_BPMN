@@ -24,7 +24,7 @@ Siga siempre este orden. No empiece dibujando flechas: empiece identificando qui
 
 ---
 
-## 3. Ejemplo guiado: Agendamiento de Citas Médicas (Clínica Salud Viva)
+## 3. Ejemplo guiado: Agendamiento de Citas Médicas (Fundación Salud Viva)
 
 Este es el mismo caso base descrito en el `README.md`. A continuación se construye el diagrama siguiendo, paso a paso, la metodología de la sección anterior. Úselo como referencia de método — no como plantilla para copiar, ya que en clase el docente puede ajustar el alcance del proceso.
 
