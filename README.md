@@ -66,6 +66,14 @@ Después de la clase, el equipo debe:
 
 ---
 
+## Validación técnica, análisis de casos y tecnología (opcional)
+
+Para comprobar que el proceso está bien conectado, el equipo puede abrirlo en un simulador de tokens gratuito (en el navegador o en Camunda Modeler) y recorrer cada salida de cada compuerta: si algún camino no llega a un evento de fin, la simulación lo muestra. No es un ejercicio de programación: el proceso del caso base ya está listo en formato BPMN 2.0 en [`clase/validacion-tecnica/`](clase/validacion-tecnica/), junto con una variante con un error típico para practicar. El procedimiento está en la [sección 7 de la guía paso a paso](clase/guia_paso_a_paso_bpmn.md#7-validación-técnica-del-proceso-opcional). Lo que se encuentre se documenta en `entrega/informe.md`.
+
+**Análisis de caso real y tecnología.** La [sección 8 de la guía](clase/guia_paso_a_paso_bpmn.md#8-análisis-de-caso-real-y-panorama-tecnológico-opcional) analiza en clave de procesos el caso de Knight Capital (2012), que perdió más de 460 millones de dólares en 45 minutos por un procedimiento de instalación manual sin verificación, y presenta el panorama de tecnologías de procesos (BPMS, bajo código, RPA y minería de procesos). El equipo analiza un caso del sector de su cliente con la [plantilla de análisis de caso](plantillas/plantilla_analisis_caso.md) en `entrega/analisis-caso.md`.
+
+---
+
 ## Estructura esperada del repositorio
 
 ```
