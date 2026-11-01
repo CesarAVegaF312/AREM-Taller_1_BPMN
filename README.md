@@ -88,10 +88,13 @@ taller-01-bpmn/
 ├── entrega/
 │   ├── modelo-final.drawio        # Modelo BPMN del proceso real del cliente
 │   ├── informe.md                 # Ver plantillas/plantilla_informe_taller.md
+│   ├── analisis-caso.md           # Opcional: ver plantillas/plantilla_analisis_caso.md
+│   ├── validacion-tecnica/        # Opcional: ver la sección de validación técnica de la guía
 │   └── referencias.md             # Ver plantillas/plantilla_referencias.md
 └── plantillas/
     ├── plantilla_informe_taller.md
     ├── plantilla_notas.md
+    ├── plantilla_analisis_caso.md
     └── plantilla_referencias.md
 ```
 
